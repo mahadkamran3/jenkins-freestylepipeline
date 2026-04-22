@@ -6,7 +6,6 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'python f1.py'
-                bat 'python f3.py'
             }
         }
 
