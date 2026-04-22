@@ -6,6 +6,9 @@ pipeline {
             steps {
                 bat 'python f1.py'
             }
+            steps {
+                bat 'python f3.py'
+            }
         }
         stage('Test') {
             steps {
